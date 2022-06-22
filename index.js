@@ -3,6 +3,9 @@ move(inventory).to(0, 0)
 
 
 const character = newImage('assets/green-character/static.gif')
+let direction = null;
+    let x = 100;
+    let y = 250;
 
 function handleDirectionChange(direction){
     if(direction === null){
